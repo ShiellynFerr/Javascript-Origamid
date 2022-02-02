@@ -54,3 +54,7 @@ var bg = menu.backgroundColor
 //Protótipo e Herança
 //o objeto herda propriedades e métodos do objeto que foi utilizado para
 //criar o mesmo
+
+//Tudo é objeto
+//String, Numeros, Boolean, Objetos, possuem propriedades e metodos
+//por isso são objetos
