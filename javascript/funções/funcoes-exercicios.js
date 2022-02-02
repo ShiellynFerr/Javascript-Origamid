@@ -59,3 +59,61 @@ function jaVisitei(paisesVisitados) {
 }
 precisoVisitar(20);
 jaVisitei(20);
+
+
+// function DashInsert(str) { 
+
+//   var idx = 0;
+//    while (idx < str.length-1) {
+//        if (Number(str[idx]) % 2 === 1 && Number(str[idx+1]) % 2 === 1) {
+//          str = str.slice(0,idx+1) + "-" + str.slice(idx+1);
+//          idx = idx + 2;
+//        }
+//        else {  
+//            idx++;
+//        }
+//  }
+//  return str;  
+        
+// }
+
+
+function DashInsert(str) { 
+
+  let bil = 0;
+   while (bil < str.length-1) {
+       if (Number(str[bil]) % 2 === 1 && Number(str[bil+1]) % 2 === 1) {
+         str = str.slice(0,bil+1) + "-" + str.slice(bil+1);
+         bil = bil + 2;
+       }
+       else {  
+           bil++;
+       }
+ }
+ return str;  
+        
+}
+
+console.log(DashInsert("454793"));
+
+
+function MathChallenge(num) { 
+ 
+  var divisao
+  var novoNumero
+ 
+  divisao = num % 2
+  novoNumero = num / 2
+  
+  while(divisao === 0 && novoNumero !== 2){
+   divisao = num % 2
+   novoNumero = num / 2
+  } if(novoNumero == 2){
+    return true
+  } else{
+    return false
+  }
+   // code goes here  
+   return num; 
+ 
+ }
