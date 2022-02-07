@@ -117,3 +117,16 @@ function MathChallenge(num) {
    return num; 
  
  }
+
+ function f(num){
+  num = 5;
+  if(num < 2) {
+    return num;
+  } else{
+    return f(5)
+    
+   }
+ 
+}
+ 
+console.log(f);
