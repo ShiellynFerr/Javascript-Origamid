@@ -98,5 +98,31 @@ background-color: #fb5;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.2;
   margin-bottom: 1rem;
-  
+}
+
+.animais-lista{
+  height: 370px;
+  overflow-y: scroll;
+  grid-column: 2;
+}
+
+.animais-lista::-webkit-scrollbar{
+  width: 18px;
+}
+.animais-lista::-webkit-scrollbar-thumb{
+  background-color: #fb5;
+  border-left: 4px solid #faf6ed;
+  border-right: 4px solid #faf6ed;
+}
+
+.animais-lista::-webkit-scrollbar-track{
+  background-color: #faf6ed;
+}
+
+.animais-descricao{
+  grid-column: 3
+}
+
+.animais-descricao section {
+  margin-bottom: 3rem;
 }
