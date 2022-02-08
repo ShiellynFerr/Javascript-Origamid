@@ -66,3 +66,37 @@ letter-spacing: .1rem;
  grid-gap: 20px;
  margin-bottom: 4rem;
 }
+
+.titulo{
+  font-family: 'Playfair Display SC', georgia;
+  font-size: 6rem;
+  line-height: 1;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  grid-column: 1/ 4;
+}
+
+.animais h2{
+  font-family: monospace;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-bottom: 1rem;
+  color: #e54;
+}
+
+.animais h2::before {
+content: '';
+display: inline-block;
+width: 40px;
+height: 10px;
+margin-right: 10px;
+background-color: #fb5;
+}
+
+.animais p{
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  
+}
