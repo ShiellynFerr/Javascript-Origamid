@@ -24,5 +24,32 @@ body{
 background-color: #faf6ed;
 color: #222;
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+}
+
+ /* Estilo menu */
+
+.menu{
+grid-column: 3/ 5;
+margin-top: 2rem;
+margin-bottom: 2rem;
+background-color: #fb5;
+}
+
+.menu ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.menu li a{
+display: block;
+padding: 10px;
+margin-right:10px ;
+color: #222;
+font-family: monospace;
+font-size: 0.875rem;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: .1rem;
 }
