@@ -45,3 +45,14 @@ for(var fruta = 0; fruta < frutas.length; fruta++){
 
 // var ultimaFruta = frutas[4];
 var ultimaFruta = frutas[frutas.length - 1]; //uma forma melhor de puxar o ultimo valor da array
+
+
+// let numerosInteiros = [3,5,-4,8, 11, 1, -1,6];
+
+const uniformePretoAltura = [150,154, 179];
+const uniformeLaranjaAltura = [162,181, 151];
+
+for(uniformePretoAltura > )
+
+
+
