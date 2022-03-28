@@ -1,5 +1,38 @@
 
 
+// ADDEVENTLISTENER
+// Adiciona uma função ao elemento, esta chamada de callback, que será ativada 
+// assim que certo evento ocorrer neste elemento.
+
+
+const img = document.querySelector('img')
+
+function callback () {
+    console.log("clicou");
+}
+
+img.addEventListener('click', callback)
+
+const imgAnimaisLista = document.querySelector('.animais-lista');
+
+function callbackLista (event) {
+ console.log(event.currentTarget)
+ console.log(event.target)
+}
+
+imgAnimaisLista.addEventListener('click', callbackLista);
+
+const h1 = document.querySelector('h1')
+
+function handleEvent(event) {
+    console.log(event.type, event);
+}
+
+h1.addEventListener('click', handleEvent);
+h1.addEventListener('mouseenter', callback);
+
+
+
 // // Seleciona pela classe, retorna uma HTMLCollection
 // const gridSection = document.getElementsByClassName('grid-section');
 // const contato = document.getElementsByClassName('grid-section contato');
