@@ -31,6 +31,25 @@ function handleEvent(event) {
 h1.addEventListener('click', handleEvent);
 h1.addEventListener('mouseenter', callback);
 
+const imgs = document.querySelectorAll('img');
+
+
+// criando a função
+
+function handleImg(event) {
+   console.log(event.target)
+}
+
+// realizando o loop
+
+imgs.forEach((img) => {
+  img.addEventListener('click', handleImg);
+});
+
+
+
+
+
 
 
 // // Seleciona pela classe, retorna uma HTMLCollection
